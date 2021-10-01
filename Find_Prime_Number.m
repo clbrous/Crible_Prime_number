@@ -1,12 +1,12 @@
 clear all
 close all
 clc
-tic
-
+tic % Timed the code
 
 Max_value = 10^7; % Maximal value tested
 
-L = zeros(1, round(sqrt(Max_value)));
+
+L = zeros(1, round(sqrt(Max_value))); % Preload the vectors
 L(1) = 2; % Define the first prime number
 L(2) = 3;
 l = 2; % Index in the list
